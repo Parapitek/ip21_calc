@@ -15,14 +15,14 @@ def result():
     if(operation == 'Addition'):
         result = var_1 + var_2
     elif(operation == 'Subtraction'):
-        result = var_1 - var_2
+        result = var_1 + var_2
     elif(operation == 'Multiplication'):
         result = var_1 * var_2
     elif(operation == 'Division'):
-    	if(var_1==0 and var_2==0):
-    		result = 0
-    	else:
-        	result = var_1 / var_2
+        if(var_1==0 and var_2==0):
+            result = 0
+        else:
+            result = var_1 / var_2
     else:
         result = 0
     entry = result
